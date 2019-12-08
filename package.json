@@ -1,0 +1,15 @@
+{
+  "name": "osc-control-monitor-tool",
+  "version": "0.0.1",
+  "description": "tool to test OSC connections",
+  "main": "src/index.ts",
+  "repository": "https://github.com/olzzon/osc-control-monitor-tool.git",
+  "author": "Olzzon <github@olzzon.dk>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "osc": "^2.3.1"
+  }
+}
